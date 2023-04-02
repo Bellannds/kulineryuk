@@ -360,4 +360,45 @@ a.nav-link:not(.active){
         padding-top: 1rem;
         text-align: justify;
     }
+
+    .about-us-desc {
+        font-size: 15px;
+    }
+
+    .contact-email{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-instagram{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-whatsapp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .email-text{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .instagram-text{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .whatsapp-text{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logo-medsos {
+        margin-left: 160px;
+    }
 }
