@@ -25,8 +25,8 @@
     <!-- Header navigation -->
     <header class="bg-bl-transparent no-border sticky-header">
         <div class="container">
-            <div class="row header-wrapper">
-                <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-2">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
                     <div class="header-left">
                         <div class="site-logo">
                             <a href="index.html">
@@ -34,11 +34,13 @@
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-7">
-                    <div class="header-middle">
-                        <ul class="nav justify-content-end">
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">HOME</a>
                             </li>
@@ -55,34 +57,32 @@
                                 <a class="nav-link" href="#contact-us">CONTACT US</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="col-2">
-                    <div class="header-right ">
-                        <div class="input-group mb-3">
-                            <div class="dropdown">
-                                <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Pilih daerah
-                                </button>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="jawa.html">Jawa</a></li>
-                                  <li><a class="dropdown-item" href="bali.html">Bali</a></li>
-                                  <li><a class="dropdown-item" href="sumatera.html">Sumatera</a></li>
-                                  <li><a class="dropdown-item" href="sulawesi.html">Sulawesi</a></li>
-                                  <li><a class="dropdown-item" href="kalimantan.html">Kalimantan</a></li>
-                                  <li><a class="dropdown-item" href="papua.html">Papua</a></li>
-                                </ul>
-                              </div>
-                            <div class="icon-profile" style="margin-left: 20px">
-                                <a href="login.html">
-                                    <img src="img/icon profile.png" alt="icon-profile" style="height: 40px;">
-                                </a>
+                        <div class="header-right ">
+                            <div class="input-group mb-3">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pilih daerah
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="jawa.html">Jawa</a></li>
+                                        <li><a class="dropdown-item" href="bali.html">Bali</a></li>
+                                        <li><a class="dropdown-item" href="sumatera.html">Sumatera</a></li>
+                                        <li><a class="dropdown-item" href="sulawesi.html">Sulawesi</a></li>
+                                        <li><a class="dropdown-item" href="kalimantan.html">Kalimantan</a></li>
+                                        <li><a class="dropdown-item" href="papua.html">Papua</a></li>
+                                    </ul>
+                                </div>
+                                <div class="icon-profile" style="margin-left: 20px">
+                                    <a href="login.html">
+                                        <img src="img/icon profile.png" alt="icon-profile" style="height: 40px;">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
 
