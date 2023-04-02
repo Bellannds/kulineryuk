@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kulineranyuk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- Header navigation -->
+    <header class="bg-bl-transparent no-border sticky-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="header-left">
+                        <div class="site-logo">
+                            <a href="index.html">
+                                <img src="img/Logo Kulineranyuk.png" alt="site-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#popular-food">POPULAR FOOD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#review">REVIEW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-us">CONTACT US</a>
+                            </li>
+                        </ul>
+                        <div class="header-right ">
+                            <div class="input-group mb-2">
+                                <div class="dropdown">
+                                    <button class="btn btn-danger dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pilih daerah
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="jawa.html">Jawa</a></li>
+                                        <li><a class="dropdown-item" href="bali.html">Bali</a></li>
+                                        <li><a class="dropdown-item" href="sumatera.html">Sumatera</a></li>
+                                        <li><a class="dropdown-item" href="sulawesi.html">Sulawesi</a></li>
+                                        <li><a class="dropdown-item" href="kalimantan.html">Kalimantan</a></li>
+                                        <li><a class="dropdown-item" href="papua.html">Papua</a></li>
+                                    </ul>
+                                </div>
+                                <div class="icon-profile" style="margin-left: 20px">
+                                    <a href="login.html">
+                                        <img src="img/icon profile.png" alt="icon-profile" style="height: 40px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero section -->
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="img/bg slide 1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block caption-wrapper">
+                        <h2 class="caption-title">Restaurant</h2>
+                        <p class="caption-desc">Come hungry, leave happy</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/bg slide 2.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block caption-wrapper">
+                        <h2 class="caption-title">WE HAPPY TO SERVE YOU</h2>
+                        <p class="caption-desc">Your satisfaction is our priority</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+        </div>
+    </section>
+
+    <!--Popular Food Section-->
+    <section id="popular-food" class="container-fluid">
+        <div class="text-center justify-content-center popular-caption-wrapper">
+            <h2 class="popular-title-white text-center" style="display:inline;">Makanan</h2>
+            <h2 class="popular-title-red text-center" style="display:inline;">Terpopuler</h2>
+            <p class="popular-desc">Berikut adalah makanan khas indonesia yang paling banyak dicari</p>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/sate.jpg" class="card-img-top" alt="SateMadura">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Sate Madura</h5>
+                    <p class="card-text">Sate madura terbuat dari bahan dasar daging ayam dan diolah dengan racikan
+                        bumbu yang khas dari Madura, Jawa Timur.</p>
+                    <a href="reviewsatemadura.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/rendang.jpg" class="card-img-top" alt="Rendang">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Rendang</h5>
+                    <p class="card-text">Olahan daging yang dimasak dalam suhu rendah dan waktu lama 
+                        menggunakan aneka rempah dan santan.</p>
+                    <a href="reviewrendang.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/pempek.jpg" class="card-img-top" alt="Pempek">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Pempek</h5>
+                    <p class="card-text">Pempek adalah makanan yang terbuat dari daging ikan yang digiling lembut yang
+                        dicampur tepung kanji.</p>
+                    <a href="reviewpempek.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/coto makassar.jpg" class="card-img-top" alt="CotoMakassar">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Coto Makassar</h5>
+                    <p class="card-text">terbuat dari jeroan sapi bercampur daging sapi dalam mangkuk dan
+                        dinikmati dengan ketupat dan buras.</p>
+                    <a href="reviewcoto.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Pengertian Makanan Khas Section-->
+    <section>
+        <div class="hero justify-content-center">
+            <div>
+                <img src="img/makanan tradisional.jpg" class="hero-makanan" alt="makanan tradisional">
+            </div>
+            <div class="font-weight-bold text-white makanan-khas-desc-wrapper justify-content-center text-center">
+                <h2 class="makanan-khas-title-white text-center" style="display:inline;">Makanan</h2>
+                <h2 class="makanan-khas-title-red text-center" style="display:inline;">Khas</h2>
+                <div class="makanan-khas-desc">
+                    <p class="justify-content-center">Makanan khas daerah seringkali menjadi daya tarik tersendiri bagi
+                        masyarakat, dan dapat menjadi
+                        salah satu faktor yang dapat meningkatkan ekonomi lokal. Makanan khas daerah juga dapat
+                        memperkaya ragam kuliner nasional, karena masing-masing daerah memiliki ciri khas dan keunikan
+                        pada masakan
+                        mereka.Dengan adanya makanan khas daerah, maka kita dapat lebih memahami dan menghargai
+                        keberagaman
+                        budaya yang ada di Indonesia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Temukan Makanan Khas Section-->
+    <section id="review" class="container-fluid">
+        <div class="row">
+            <div class="text-center">
+                <h2 class="makanan-khas-title-white text-center" style="display:inline;">Temukan</h2>
+                <h2 class="makanan-khas-title-red text-center" style="display:inline;">Makanan Khas</h2>
+                <h2 class="makanan-khas-title-white text-center">Daerah yang Kamu Cari</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/asinan bogor.jpg" class="card-img-top" alt="AsinanBogor">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Asinan Bogor</h5>
+                    <p class="card-text">Buah-buahan yang diasinkan dan diawetkan seperti apel, mangga muda,
+                        bengkuang, nanas,  dengan kuah asinan.</p>
+                    <a href="reviewasinanbogor.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/papeda.jpg" class="card-img-top" alt="Papeda">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Papeda</h5>
+                    <p class="card-text">Terbuat dari pohon sagu yang dimasak yang memiliki rasa tawar. 
+                        Papeda disajikan dengan ikan kuah kuning.</p>
+                    <a href="reviewpapeda.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/soto banjar.jpg" class="card-img-top" alt="SotoBanjar">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Soto Banjar</h5>
+                    <p class="card-text">Sup kaldu ayam khas Banjar yang dicampur dengan daging ayam,
+                        tauge, kentang goreng, dan telur rebus.</p>
+                    <a href="reviewsotobanjar.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+            <div class="card text-center card-food mt-5">
+                <div class="justify-content-center">
+                    <img src="img/sate plecing.jpg" class="card-img-top" alt="SatePlecing">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title title2">Sate Plecing</h5>
+                    <p class="card-text">Sate ini dimasak dengan bumbu khas Bali yang terbuat
+                        dari kemiri, terasi, tomat, bawang putih, dan beberapa bumbu lainnya.</p>
+                    <a href="reviewsateplecing.html" class="btn btn-danger">Lihat Review</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Us Section-->
+    <section id="about-us">
+        <div class="text-center justify-content-center popular-caption-wrapper">
+            <h2 class="popular-title-white text-center" style="display:inline;">About</h2>
+            <h2 class="popular-title-red text-center" style="display:inline;">Us</h2>
+        </div>
+        <div class="hero justify-content-center">
+            <div class="font-weight-bold text-white">
+                <div class="makanan-khas-desc">
+                    <h5 style="display: inline; color: #F65F5F;">Kulineranyuk</h5>
+                    <h5 style="display: inline;"> adalah website yang berfokus pada ulasan kuliner di beberapa daerah
+                        di Indonesia. Tujuan utama kami adalah untuk mempromosikan keanekaragaman kuliner yang ada di
+                        Indonesia serta membantu pengguna dalam memilih tempat makan yang tepat dan berkualitas. Dengan
+                        demikian, kami berharap dapat memberikan manfaat bagi semua pihak, baik bagi pengusaha kuliner
+                        maupun bagi pengguna.
+                    </h5>
+                </div>
+            </div>
+            <div>
+                <img src="img/food.png" class="hero-logo">
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Us Section-->
+    <section id="contact-us">
+        <div class="text-center justify-content-center popular-caption-wrapper">
+            <h2 class="popular-title-white" style="display:inline;">Contact</h2>
+            <h2 class="popular-title-red" style="display:inline;">Us</h2>
+        </div>
+        <div class="fs-4 mt-3 text-white">
+            <img src="img/email.png" alt="Bootstrap" width="50" height="50" class="logo-medsos">
+            : bellatrinanda08@gmail.com
+        </div>
+        <div class="fs-4 mb-1 text-white">
+            <img src="img/instagram.png" alt="Bootstrap" width="50" height="50" class="logo-medsos">
+            : bellannds
+        </div>
+        <div class="fs-4 mb-1 text-white">
+            <img src="img/whatsapp.png" alt="Bootstrap" width="50" height="50" class="logo-medsos">
+            : 082132984406
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <h5 class="footer-text">Copyright &copy;2023 Kulineranyuk</h5>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
